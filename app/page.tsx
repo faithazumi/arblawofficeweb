@@ -153,7 +153,7 @@ export default function Home() {
               className=" col-span-full flex justify-center mt-10"
             >
             <Link
-                href="#prArea"
+                href="/services"
                 className="px-7 py-3.5 bg-rose-600 text-white rounded-full hover:bg-red-900 transition duration-300"
               >
                 Pelajari Lebih Lanjut

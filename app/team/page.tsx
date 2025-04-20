@@ -1,4 +1,5 @@
 
+
 import team  from "./data"
 import Contact from "../components/Contact"
 
@@ -33,7 +34,7 @@ export default function Home () {
                   <h4 className="font-semibold text-white mb-1">{team.description.formal.title}</h4>
                   <ul className="list-disc list-inside text-zinc-300 space-y-1">
                     {team.description.formal.list.map((item: string, index: number) => (
-                        <li key={`formal-${index}`}>{item}</li>
+                      <li key={index}>{item}</li>
                     ))}
                   </ul>
                 </div>
@@ -45,7 +46,7 @@ export default function Home () {
                   <h4 className="font-semibold text-white mb-1">{team.description.nonformal.title}</h4>
                   <ul className="list-disc list-inside text-zinc-300 space-y-1">
                     {team.description.nonformal.list.map((item: string, index: number) => (
-                       <li key={`nonformal-${index}`}>{item}</li>
+                      <li key={index}>{item}</li>
                     ))}
                   </ul>
                 </div>
