@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { Shield,  Book, Award } from "lucide-react"
+import { Shield } from "lucide-react"
 import CommunitySection from "./components/Team"
 import bg from "../public/bg.jpg"
 import { RiMoneyDollarBoxLine } from "react-icons/ri"
@@ -15,7 +15,6 @@ import { LiaCoinsSolid } from "react-icons/lia";
 import { CiWarning } from "react-icons/ci";
 import Contact from "./components/Contact"
 import AboutUs from "./components/AboutUs"
-import Service from "./components/Service"
 
 export default function Home() {
   return (

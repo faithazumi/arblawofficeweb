@@ -1,8 +1,5 @@
 
-import { motion } from "motion/react"
 import team  from "./data"
-import Link from "next/link"
-import bg from "../../public/bg.jpg"
 import Contact from "../components/Contact"
 
 
