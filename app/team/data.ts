@@ -36,18 +36,5 @@ export default [
             ]
           }
     }
-    },
-    {
-      img: "Profile3.jpg",
-      speciality: "-",
-      name: "-",
-      description: {
-        formal: {
-            title: "Edukasi Formal :",
-            list: [
-              "Universita Bina Sarana Informatika"
-            ]
-          }
-    }
     }
   ]
