@@ -14,7 +14,7 @@ export default function CommunitySection() {
         className="bg-zinc-900 rounded-lg overflow-hidden w-fit max-w-md mx-auto"
       >
         <div className="relative w-full flex justify-center ">
-          <Image src="/Profile1.jpg" alt="Community member" height={450} width={450} className="object-cover max-w-full" />
+          <Image src="/profile.jpg" alt="Community member" height={450} width={450} className="object-cover max-w-full" />
         </div>
         <div className="p-6">
           <h3 className="text-xl font-serif text-white mb-2">ADV Ari Wahyu Wicaksono. SH.MKN.CRA.CPCLE.CTA.</h3>

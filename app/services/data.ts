@@ -21,6 +21,11 @@ export default [
         text : "Kami mendampingi Klien, termasuk BUMN, dalam berbagai transaksi korporasi seperti merger dan akuisisi (M&A), restrukturisasi utang, jual beli aset maupun saham, serta penawaran saham. Kami terlibat secara menyeluruh dalam setiap tahap proses untuk memastikan kelancaran dan keberhasilan transaksi. Di samping itu, kami juga memberikan dukungan dalam penyusunan dokumen hukum yang dibutuhkan, termasuk permohonan persetujuan investasi dan izin usaha, anggaran dasar, perjanjian joint venture, kontrak bisnis, persetujuan dari pihak ketiga, hingga dokumen korporasi lainnya."
     },
     {
+        img : '/tax.jpg',
+        title : "Hukum Pajak",
+        text : "Hukum pajak atau yang juga dikenal sebagai hukum fiskal merupakan aturan-aturan yang meliputi wewenang atau hak pemerintah dalam mengambil kekayaan seseorang dan memberikannya kembali ke masyarakat melalui kas negara. Dalam hal ini, hukum pajak merupakan hukum publik yang mengatur hubungan orang pribadi atau badan hukum yang memiliki kewajiban untuk menunaikan pajak (wajib pajak) dengan negara."
+    },
+    {
         img : "/about.jpg",
         title : "Penyelesaian Sengketa Komersial (ARBITASE)",
         text : "Kami memberikan layanan advokasi untuk perkara perdata dan komerisal di pengadilan Indonesia. termasuk pelanggaran kontrak, perbuatan melawan hukum, pembatalan perjanjian, dan eksekusi jaminan. Kami membantu merumuskan strategi perselisihan, mengumpulkan dan menganalisis fakta serta bukti, serta menangani permasalahan dengan baik."

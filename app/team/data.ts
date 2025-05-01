@@ -1,6 +1,6 @@
 export default [
     {
-      img: "Profile1.jpg",
+      img: "profile.jpg",
       speciality: "Hukum Perdata, Kenotariatan, Hukum Bisnis",
       name: "ADV Ari Wahyu Wicaksono. SH.MKN.CRA.CPCLE.CTA.",
       description: {
