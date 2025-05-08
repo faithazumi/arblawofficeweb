@@ -1,5 +1,4 @@
 
-
 import team  from "./data"
 import Contact from "../components/Contact"
 

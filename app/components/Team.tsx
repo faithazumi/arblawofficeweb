@@ -30,7 +30,7 @@ export default function CommunitySection() {
         className="bg-zinc-900 rounded-lg overflow-hidden w-fit mx-auto max-w-md"
       >
         <div className="relative w-full flex jusitfy-center">
-          <Image src="/dummy.png" alt="Community member" height={550} width={550} className="object-cover max-w-full" />
+          <Image src="/profile2.jpg" alt="Community member" height={550} width={550} className="object-cover max-w-full" />
         </div>
         <div className="p-6">
           <h3 className="text-xl font-serif text-white mb-2">ADV Agung Widyharto. SH.</h3>

@@ -62,7 +62,7 @@ export default function Navigation() {
               <Link href="#about" className="text-zinc-300 hover:text-white transition">
                 Tentang Kami
               </Link>
-              <Link href="/prArea" className="text-zinc-300 hover:text-white transition">
+              <Link href="/services" className="text-zinc-300 hover:text-white transition">
                 Lingkup Jasa
               </Link>
               <Link href="/team" className="text-zinc-300 hover:text-white transition">
