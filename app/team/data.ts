@@ -1,7 +1,7 @@
 export default [
     {
       img: "profile.jpg",
-      speciality: "Hukum Perdata, Kenotariatan, Hukum Bisnis",
+      speciality: "Ahli Hukum Kepailitan (Kurator), Ahli Hukum Kontrak dan Pengadaan, Ahli Hukum Pajak Brevet A dan B dan Kuasa Hukum Peradilan Pajak",
       name: "ADV Ari Wahyu Wicaksono. SH.MKN.CRA.CPCLE.CTA.",
       description: {
         formal: {
@@ -25,7 +25,7 @@ export default [
       }
     },
     {
-      img: "dummy.png",
+      img: "profile2.jpg",
       speciality: "Hukum Perdata, Hukum Pidana, Hukum Korporasi",
       name: "ADV Agung Widyharto. SH.",
       description: {
