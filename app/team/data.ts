@@ -36,5 +36,18 @@ export default [
             ]
           }
     }
+    },
+    {
+      img: "dummy.png",
+      speciality: "-",
+      name: "Aviv M.Rizal. SH.",
+      description: {
+        formal: {
+            title: "Edukasi Formal :",
+            list: [
+              "-"
+            ]
+          }
+    }
     }
   ]
