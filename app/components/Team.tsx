@@ -54,6 +54,22 @@ export default function CommunitySection() {
           <div className="flex items-center gap-4 text-zinc-500"></div>
         </div>
       </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className="bg-zinc-900 rounded-lg overflow-hidden w-fit mx-auto max-w-md"
+      >
+        <div className="relative w-full flex jusitfy-center">
+          <Image src="/dummy.png" alt="Community member" height={550} width={550} className="object-cover max-w-full" />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-serif text-white mb-2">Diah Pratiwi. SE.</h3>
+          <p className="text-zinc-400 mb-4">Administration</p>
+          <div className="flex items-center gap-4 text-zinc-500"></div>
+        </div>
+      </motion.div>
       {/* Add more community member cards */}
     </div>
   )

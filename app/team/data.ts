@@ -49,5 +49,18 @@ export default [
             ]
           }
     }
+    },
+    {
+      img: "dummy.png",
+      speciality: "-",
+      name: "Diah Pratiwi. SE.",
+      description: {
+        formal: {
+            title: "Edukasi Formal :",
+            list: [
+              "-"
+            ]
+          }
+    }
     }
   ]
