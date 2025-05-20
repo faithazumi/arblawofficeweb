@@ -1,11 +1,10 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
+
 import Link from "next/link"
 import { Shield } from "lucide-react"
 import CommunitySection from "./components/Team"
-import bg from "../public/bg.jpg"
 import { RiMoneyDollarBoxLine } from "react-icons/ri"
 import { MdOutlineLibraryBooks } from "react-icons/md";
 import { FaRegHandshake } from "react-icons/fa6";
@@ -22,13 +21,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
-          <Image
-            src={bg}
-            alt="Law building"
-            fill
-            className="object-cover opacity-30"
-            priority
-          />
+          <img src="bg.jpg" alt="law building" className="object-cover opacity-30"  />
           <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/50 to-zinc-900"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10">

@@ -1,5 +1,4 @@
 
-import Image from "next/image"
 import service  from "./data"
 import Contact from "../components/Contact"
 
@@ -14,12 +13,10 @@ export default function Home () {
               className="shadow-lg rounded-lg overflow-hidden bg-zinc-800/50 hover:bg-zinc-800/70 transition-colors duration-300"
             >
               <div className="relative h-48 w-full">
-                <Image
+                <img
                   src={service.img}
                   alt={service.title}
-                  fill
-                  className="object-cover rounded-t-lg"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">

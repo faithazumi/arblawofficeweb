@@ -1,8 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
-import about from './../../public/about.jpg'
 
 export default function AboutUs() {
   return (
@@ -14,10 +12,9 @@ export default function AboutUs() {
         viewport={{ once: true }}
         className="relative aspect-video rounded-lg overflow-hidden"
       >
-        <Image
-          src={about}
+        <img
+          src="about.jpg"
           alt="Law"
-          fill
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent flex items-end p-6">
